@@ -7,7 +7,7 @@ import java.io.UnsupportedEncodingException;
 
 @WebServlet("/hello")
 public class HelloWorld extends HttpServlet {
-
+//gitÌí¼Ó×¢ÊÍ
     protected void service(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
         response.setCharacterEncoding("GBK");
         String abc = request.getParameter("abc");
